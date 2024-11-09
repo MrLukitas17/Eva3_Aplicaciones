@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagen2"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".paginaprincipal">
+
+    <TextView
+        android:id="@+id/tvBienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Bienvenido"
+        android:textColor="#0583F2"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvLucahedron_Arcade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="Lucahedron_Arcade"
+        android:textColor="#0583F2"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/arcade" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnContacto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#8C3FBF"
+            android:text="Contacto"
+            android:padding="16dp"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnSoporte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#8C3FBF"
+            android:text="Soporte"
+            android:padding="16dp"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvArcadeVersionPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="ArcadeVersionPro"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/arcade2" />
+
+            <Button
+                android:id="@+id/btnbutton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprar o Alquilar" />
+
+            <Button
+                android:id="@+id/btnbutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visualizar Producto" />
+
+            <TextView
+                android:id="@+id/tvArcadeVersionColoColo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="ArcadeVersionColoColo"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/arcade3" />
+
+            <Button
+                android:id="@+id/btnbutton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprar o Alquilar" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visualizar Producto" />
+
+            <TextView
+                android:id="@+id/tvArcadeVersionCatolica"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="ArcadeVersionCatolica"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/arcade4" />
+
+            <Button
+                android:id="@+id/btnbutton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprar o Alquilar" />
+
+            <Button
+                android:id="@+id/btnbutton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visualizar Producto" />
+
+            <TextView
+                android:id="@+id/tvArcadeVersionUdeChile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="ArcadeVersionUdeChile"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/arcade5" />
+
+            <Button
+                android:id="@+id/btnbutton7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comprar o Alquilar" />
+
+            <Button
+                android:id="@+id/btnbutton8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Visualizar Producto" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
